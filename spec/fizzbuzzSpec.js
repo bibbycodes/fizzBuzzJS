@@ -1,6 +1,5 @@
 describe("JavaBuzz",function() {
   var test;
-
   beforeEach(function(){
     test = new FizzBuzz
   })
@@ -27,12 +26,5 @@ describe("JavaBuzz",function() {
   it("returns input when not a multiple of 3 or 5", function() {
     expect(test.play(16)).toEqual(16);
   })
+})
 
-
-
-
-
-
-
-}
-)
